@@ -1,14 +1,14 @@
-# Typecho Blog Source
+# PHP Blog Source
 
-从已有博客部署中整理的 Typecho 1.2.0 源码快照。此仓库只包含程序代码与随代码分发的通用资源，不包含原博客内容或生产环境设置。
+从已有博客部署中整理的 PHP 博客源码快照。此仓库只包含程序代码与随代码分发的通用资源，不包含原博客内容或生产环境设置。
 
 ## 包含内容
 
-- Typecho 核心、管理后台和安装程序。
-- Typecho 默认主题及 HelloWorld 示例插件。
+- 博客核心、管理后台和安装程序。
+- 默认主题及 HelloWorld 示例插件。
 - KirinShiKi 插件（Unlicense）及 MarkdownParse 插件（MIT，详见各自目录的许可证与源文件声明）。插件默认不启用。KirinShiKi 需要另行取得 Handsome 主题，不能直接用于默认主题。
 
-Typecho 的原始作者信息及版权声明已保留。部署包未携带的 `admin/src/` 管理界面源文件和 `tools/build.js`、`tools/package*.json` 构建文件已从官方 v1.2.0 标签补齐；默认主题页脚已恢复上游版本。本仓库是部署代码快照，不是全新开发的博客框架，也不保证与当前上游版本同步。
+原始作者信息及版权声明已保留。部署包未携带的 `admin/src/` 管理界面源文件和 `tools/build.js`、`tools/package*.json` 构建文件已从上游 v1.2.0 标签补齐；默认主题页脚已恢复上游版本。本仓库是部署代码快照，不是全新开发的博客框架，也不保证与当前上游版本同步。
 
 ## 安装
 
@@ -28,4 +28,4 @@ Handsome 主题及其配套插件未包含：部署副本中的授权条款禁�
 
 ## 许可证
 
-Typecho 核心遵循 GNU GPL v2，见 [LICENSE.txt](LICENSE.txt)。第三方插件及资源保留各自许可证和原始声明，详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+核心遵循 GNU GPL v2，见 [LICENSE.txt](LICENSE.txt)。第三方组件及资源保留各自许可证、来源和原始声明，详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
