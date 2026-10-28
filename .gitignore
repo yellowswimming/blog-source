@@ -1,0 +1,34 @@
+# Production configuration and secrets
+/config.inc.php
+/.env
+/.env.*
+!/.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+# Personal content and runtime data
+/usr/uploads/*
+!/usr/uploads/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+*.db-*
+*.sqlite-*
+*.sqlite3-*
+*.log
+/cache/
+/tmp/
+/backups/
+*.bak
+*.zip
+*.tar
+*.gz
+# Machine-specific configuration
+/.user.ini
+/.well-known/
+/.htaccess
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
